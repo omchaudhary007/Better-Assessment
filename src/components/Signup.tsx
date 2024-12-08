@@ -61,7 +61,6 @@ const Signup = () => {
   };
 
   const onSubmit = (
-    values: SignupValue,
     { setSubmitting }: FormikHelpers<SignupValue>
   ) => {
     toast.success("Sign up successful!");
